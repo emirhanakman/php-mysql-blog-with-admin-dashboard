@@ -1,6 +1,6 @@
 # Auto detect text files and perform LF normalization
 * linguist-vendored
-*.php
-*.js
-*.html
-*.css
+*.php linguist-vendored=false
+*.js text eol=lf
+*.html text eol=lf
+*.css text eol=lf
